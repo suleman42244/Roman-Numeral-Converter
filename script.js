@@ -38,7 +38,7 @@ const handleConversion = () => {
     } else{
         output.style.display = 'flex';
         output.style.color = 'white'; 
-        output.style.fontSize = '1.5em'; 
+        output.style.fontSize = '2rem'; 
         output.style.justifyContent = 'center';
         output.style.alignItems = 'center';
         output.textContent = convertToRoman(inputValue);
