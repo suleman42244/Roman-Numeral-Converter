@@ -66,3 +66,21 @@
     text-align: center;
     display: none;
   }
+
+  @media only screen and (max-width: 600px) {
+    fieldset{
+        width: 90%;
+    }
+    #output{
+        width: 90%;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    fieldset{
+        width: 70%;
+    }
+    #output{
+        width: 70%;
+    }
+  }
