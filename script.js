@@ -35,13 +35,18 @@ const handleConversion = () => {
         } else {
             output.textContent = "Please enter a number less than or equal to 3999";
         }
+
+        input.value = '';
     } else{
         output.style.display = 'flex';
         output.style.color = 'white'; 
         output.style.fontSize = '2rem'; 
         output.style.justifyContent = 'center';
         output.style.alignItems = 'center';
+        output.style.backgroundColor = '#3B3B4F';
+        output.style.border = '2px solid white';
         output.textContent = convertToRoman(inputValue);
+        input.value = '';
     }
 }
 
